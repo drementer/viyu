@@ -1,0 +1,23 @@
+{
+  "name": "viyu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drementer/viyu.git"
+  },
+  "author": "drementer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drementer/viyu/issues"
+  },
+  "homepage": "https://github.com/drementer/viyu#readme",
+  "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "vue": "^2.7.10"
+  }
+}
