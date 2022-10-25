@@ -1,20 +1,19 @@
 <template>
   <main class="main">
     <AsideMenu :childs="childs" />
-    <div class="home-view">
-      <h2>Home View</h2>
-      <img src="../../assets/code.jpg" alt="" />
-    </div>
+    <CustomInput />
   </main>
 </template>
 
 <script>
 import AsideMenu from '@/components/AsideMenu.vue';
+import CustomInput from '@/components/CustomInput.vue';
 
 export default {
   name: 'HomeView',
   components: {
     AsideMenu,
+    CustomInput,
   },
   data() {
     return {
