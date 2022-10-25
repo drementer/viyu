@@ -3,11 +3,11 @@
     <nav class="nav">
       <router-link
         class="nav__link"
-        v-for="m in menu"
-        :key="m.name"
-        :to="m.path"
+        v-for="menu in menuList"
+        :key="menu.name"
+        :to="menu.path"
       >
-        {{ m.name }}
+        {{ menu.name }}
       </router-link>
     </nav>
     <router-view />
@@ -18,7 +18,7 @@
 export default {
   data() {
     return {
-      menu: this.$router.options.routes,
+      menuList: this.$router.options.routes,
     };
   },
 };
